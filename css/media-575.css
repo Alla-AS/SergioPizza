@@ -1,0 +1,184 @@
+@media screen and (max-width: 576px) {
+
+    .wrapper {
+        width: 90.43%;
+        margin: 0 auto;
+    }
+
+    .logo__heading {
+        width: 250px;
+        height: 60px;
+    }
+
+    /* Блок heading */
+
+    .heading {
+        padding: 35px 0;
+    }
+
+    .info__heading {
+        display: none;
+    }
+
+
+    .basket-buy__heading {
+        font-size: var(--font-size-medium);
+        line-height: 143%;
+    }
+
+    .block-icon__busket-buy img {
+        width: 55.47px;
+        height: 55.47px;
+    }
+
+    /* Секция heading-content */
+
+    .heading-content {
+        padding: 38px 0 68px;
+        background-image: url(../img/bg-heading575.png);
+    }
+
+    .blocks__heading-content {
+        text-align: center;
+    }
+
+    /* Секция pizza */
+
+    .pizza {
+        padding: 70px 0;
+    }
+
+    .blocks__pizza {
+        gap: 70px;
+    }
+
+    .flex-container__pizza {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .flex-item__flex-container {
+        width: 73.08%;
+    }
+
+    .btn__flex-item {
+        padding: 15px 40px;
+    }
+
+
+    /* Секция why-we */
+    .why-we {
+        padding: 70px 0;
+    }
+
+    .blocks__why-we {
+        gap: 70px;
+    }
+
+    .blocks__pros__why-we {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    /* Секция reviews */
+
+    .reviews {
+        padding: 70px 0px;
+    }
+
+    .blocks__reviews h2{
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .block__reviews {
+        flex-direction: column;
+        padding: 70px 30px;
+    }
+
+
+    .block-text__reviews h4 {
+        font-size: var(--font-size-height);
+    }
+
+    .foto__reviews {
+        width: 300px;
+        height: 300px;
+    }
+
+    .block-turn__reviews {
+        padding-top: 50px;
+    }
+
+    .slider {
+        height: 1127px;
+    }
+
+    /* Секция set-reviews */
+
+    .set-reviews {
+        padding: 90px 38px 87px 38px;
+    }
+
+
+    .flex-item-text__set-reviews {
+        display: flex;
+        flex-direction: column;
+        flex: 100%;
+        align-items: center;
+    }
+
+    .flex-item-text__set-reviews h2 {
+        text-align: center;
+        font-size: var(--font-size-h3);
+    }
+
+    .list-reasons {
+        width: 100%;
+        margin: 30px 0 50px;
+    }
+
+    .flex-item-img__set-rewiews {
+        display: none;
+    }
+
+
+    /* Cекция contact-info */
+
+    .contact-info {
+        margin: 70px 0 40px;
+
+    }
+
+    .blocks__contact-info {
+        flex-direction: column-reverse;
+        gap: 70px;
+        text-align: center;
+    }
+
+    .map {
+        width: 500px;
+    }
+
+
+    /* Cекция info-footer */
+
+    .info-footer {
+        padding: 40px 0px 25px;
+    }
+
+    .flex-container__info-footer{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .block-social-icon {
+        margin-right: 0px;
+    }
+
+    .block-social-icon svg path {
+        transition: 0.3s;
+    }
+
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Итоговая работа</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="./css/modalWindow.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media-575.css">
+</head>
+<body>
+    <div class="modal-window" id="modalWindow">
+        <div class="modal-content" id="modalContent">
+            <div class="modal-header">
+                <h2>Написать отзыв</h2>
+                <div class="modal-close" id="modalClose">
+                    <img src="img/icon-close-modalw.svg" alt="icon-close">
+                </div>
+            </div>
+            <div class="modal-main">
+                <form action="#">
+                    <input type="text" name="userName" id="userNameForms" placeholder="Ваше имя">
+                    <textarea name="review" id="reviewForn" cols="30" rows="10" placeholder="Отзыв"></textarea>
+                    <input type="submit" value="Отправить отзыв">
+                    <div class="approval-block">
+                        <input type="checkbox" name="approval" id="approval">
+                        <label for="approval">Соглашаюсь с <a href="#" class="approval-text">условиями передачи данных</a></label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="heading">
+            <div class="blocks__heading wrapper flex-row">
+                <div class="logo__heading">
+                    <a href="#">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="info__heading flex-row">
+                    <div class="icon-info">
+                        <img src="img/icon-phone.svg" alt="icon-phone">
+                    </div>
+                    <div class="phone-grhWork__info">
+                        <p class="phone">8 (800) 000-00-00</p>
+                        <p class="grhWork">Ежедневно с 9:00 до 21:00</p>
+                    </div>
+                </div>
+                <div class="basket-buy__heading flex-row">
+                    <p class="price__basket-buy">
+                        <span id="priceBuy">0</span>
+                        ₽                          
+                    </p>
+                    <div class="block-icon__busket-buy">
+                        <img src="img/icon-basket.svg" alt="icon-basket">
+                        <span id="valueProducts" class="value-products">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="heading-content">
+            <div class="blocks__heading-content flex-column">
+                <div class="block-text__blocks flex-column">
+                    <h4>Режим работы с 9:00 до 21:00</h4>
+                    <h1>Заказывай пиццу прямо сейчас!</h1>
+                    <h4>Работаем исключительно на доставку в г. Бийске</h4>
+                    <h4>Звони! 8 933 930 0747</h4>
+                </div>
+                <div class="block-link__heading-content">
+                    <a href="#" class="btn__heading-content">ВЫБРАТЬ ПИЦЦУ</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="pizza">
+            <div class="wrapper">
+                <div class="blocks__pizza flex-column">
+                    <h2 class="universal-h2">Пицца</h2>
+                    <div class="flex-container__pizza flex-row">
+                        <div class="flex-item__flex-container">
+                            <img src="img/pizza-vetchina.png" alt="pizza-vetchina">
+                            <div class="text-block__flex-item">
+                                <h4 class="universal-h4">Краткое описание</h4>
+                                <p>Описание для раскрытия дополнительных деталей</p>
+                                <p class="price__flex-item" id="price1">650 ₽/шт.</p>
+                                <button class="btn__flex-item">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="flex-item__flex-container">
+                            <img src="img/pizza-kolbassa.png" alt="pizza-kolbassa">
+                            <div class="text-block__flex-item">
+                                <h4 class="universal-h4">Краткое описание</h4>
+                                <p>Описание для раскрытия дополнительных деталей</p>
+                                <p class="price__flex-item"  id="price2">600 ₽/шт. </p>
+                                <button class="btn__flex-item">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="flex-item__flex-container flex-column">
+                            <img src="img/pizza-sitniy.png" alt="pizza-sitniy">
+                            <div class="text-block__flex-item">
+                                <h4 class="universal-h4">Краткое описание</h4>
+                                <p>Описание для раскрытия дополнительных деталей</p>
+                                <p class="price__flex-item" id="price3">680 ₽/шт. </p>
+                                <button class="btn__flex-item">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-we">
+            <div class="blocks__why-we wrapper flex-column">
+                <h2 class="universal-h2">Почему именно мы?</h2>
+                <div class="blocks__pros__why-we flex-row">
+                    <div class="pros__why-we">
+                        <img src="img/icon-tasty.svg" alt="icon-tasty">
+                        <h4 class="universal-h4">Это вкусно!</h4>
+                        <p>Коронное блюдо нашего шеф-повара - это пицца</p>
+                    </div>
+                    <div class="pros__why-we flex-column">
+                        <img src="img/icon-best_price.svg" alt="icon-best_price">
+                        <h4 class="universal-h4">Лучшие цены</h4>
+                        <p>Лучшие цены в городе по соотношению цена/качество</p>
+                    </div>
+                    <div class="pros__why-we">
+                        <img src="img/icon-free_shipping.svg" alt="icon-free_shipping">
+                        <h4 class="universal-h4" >Бесплатная доставка</h4>
+                        <p>Мы доставляем пиццу вам домой, чтобы вам не пришлось никуда идти</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="blocks__reviews wrapper flex-column">
+                <h2 class="universal-h2">Отзывы наших клиентов</h2>
+                <div class="slider">
+                    <div class="slide">
+                        <div class="block__reviews flex-row">
+                            <div class="block-text__reviews flex-column">
+                                <img src="img/icon-quote.svg" alt="icon-quote">
+                                <h4>«Лучшую фразу из отзыва напишите в заголовке»</h4>
+                                <p>«Вставьте отзыв целиком или часть отзыва клиента. Никогда не выдумывайте отзывы самостоятельно. Фильшивые отзывы всегда видно. Будьте честны.</p>
+                                <p>Опишите конечный результат, который получил человек после работы с вами. Что конеретно ему это дало. Можно описывать результат в цифрах, чтобы была конкретика»</p>
+                            </div>
+                            <div class="block-info__reviews flex-column">
+                                <div class="foto__reviews  foto-review-1">
+                                    <!-- <img src="img/foto-reviews.png" alt="foto-reviews"> -->
+                                </div>
+                                <p>Иван Демидов</p>
+                                <p>Краснодар</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="slide">
+                        <div class="block__reviews flex-row">
+                            <div class="block-text__reviews flex-column">
+                                <img src="img/icon-quote.svg" alt="icon-quote">
+                                <h4>«Лучшую фразу из отзыва напишите в заголовке»</h4>
+                                <p>«Вставьте отзыв целиком или часть отзыва клиента. Никогда не выдумывайте отзывы самостоятельно. Фильшивые отзывы всегда видно. Будьте честны.</p>
+                                <p>Опишите конечный результат, который получил человек после работы с вами. Что конеретно ему это дало. Можно описывать результат в цифрах, чтобы была конкретика»</p>
+                            </div>
+                            <div class="block-info__reviews flex-column">
+                                <div class="foto__reviews foto-review-2"></div>
+                                <p>Кирилл Новиков</p>
+                                <p>Бийск</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="slide">
+                        <div class="block__reviews flex-row">
+                            <div class="block-text__reviews flex-column">
+                                <img src="img/icon-quote.svg" alt="icon-quote">
+                                <h4>«Лучшую фразу из отзыва напишите в заголовке»</h4>
+                                <p>«Вставьте отзыв целиком или часть отзыва клиента. Никогда не выдумывайте отзывы самостоятельно. Фильшивые отзывы всегда видно. Будьте честны.</p>
+                                <p>Опишите конечный результат, который получил человек после работы с вами. Что конеретно ему это дало. Можно описывать результат в цифрах, чтобы была конкретика»</p>
+                            </div>
+                            <div class="block-info__reviews flex-column">
+                                <div class="foto__reviews foto-review-3"></div>
+                                <p>Марина Лебедева</p>
+                                <p>Бийск</p>
+                            </div>
+                        </div>  
+                    </div>
+
+                </div>
+                     
+                <div class="block-turn__reviews flex-row">
+                        <div class="turn__reviews turn-left">
+                            <img src="img/icon-left.svg" alt="icon-left">
+                        </div>
+                        <div class="turn__reviews turn-right">
+                            <img src="img/icon-right.svg" alt="icon-right">
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="set-reviews">
+            <div class="flex-container__set-reviews wrapper flex-row">
+                <div class="flex-item-text__set-reviews">
+                    <h2 class="universal-h2">Оставить отзыв</h2>
+                    <ul class="list-reasons flex-column universal-p">
+                        <li class="flex-row">Для нас важно мнение каждого</li>
+                        <li class="flex-row">Положительно относимся к конструктивной критике, это позволяет сделать наш сервис лучше</li>
+                        <li class="flex-row">Вас что-то не устроило? <br> Опишите проблему. Мы приложим все силы, чтобы решить возникшее недоразумение</li>
+                    </ul>
+                    <button class="btn__set-reviews" id="btnSetReviews">Оставить отзыв</button>
+                </div>
+                <div class="flex-item-img__set-rewiews">
+                    <img src="img/foto-feedback.png" alt="foto-feedback">
+                </div>
+            </div>
+        </section>
+
+         
+        <section class="contact-info">
+            <div class="blocks__contact-info wrapper flex-row">
+                <div class="map">
+                    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/975/biysk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Бийск</a><a href="https://yandex.ru/maps/975/biysk/house/sovetskaya_ulitsa_52/bEwYdAVgQU0HQFtofXlyeXljbQ==/?ll=85.221301%2C52.537979&utm_medium=mapframe&utm_source=maps&z=17.12" style="color:#eee;font-size:12px;position:absolute;top:14px;">Советская улица, 52 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=85.221301%2C52.537979&mode=whatshere&whatshere%5Bpoint%5D=85.220636%2C52.538410&whatshere%5Bzoom%5D=17&z=17.12" width="525" height="625" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                </div>
+                <div class="block-contact flex-column">
+                    <h2 class="universal-h2">Контакты</h2>
+                    <div class="contact">
+                        <img src="img/icon-phone-contact.svg" alt="icon-phone-contact">
+                        <h4 class="universal-h4">Номер телефона</h4>
+                        <p class="universap-p">Звоните по номеру телефона, и мы оперативно отреагируем</p>
+                        <a href="#">+7 933 930 0747</a>
+                    </div>
+                    <div class="contact">
+                        <img src="img/icon-email-contact.svg" alt="icon-email-contact">
+                        <h4 class="universal-h4">Почта</h4>
+                        <p>Вы можете написать нам на почту в любое время суток</p>
+                        <a href="#">trud.resurs.altay@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="info-footer">
+            <div class="flex-container__info-footer wrapper flex-row">
+                <p>Copyright © 2023 Pizza Sergio. Powered by Sergio Pizza.</p>
+                <div class="block-social-icon flex-row">
+                    <!-- <a href="#"><img src="img/icon-vk.svg" alt="icon-vk"></a>
+                    <a href="#"><img src="img/icon-inst.svg" alt="icon-inst"></a> -->
+                    <a href="#">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32 0H4C1.79 0 0 1.79 0 4V32C0 34.21 1.79 36 4 36H32C34.21 36 36 34.21 36 32V4C36 1.79 34.21 0 32 0ZM29.814 25.368L26.344 25.416C26.344 25.416 25.596 25.562 24.616 24.886C23.318 23.994 22.094 21.674 21.14 21.976C20.172 22.284 20.202 24.372 20.202 24.372C20.202 24.372 20.21 24.74 19.988 24.98C19.748 25.238 19.278 25.212 19.278 25.212H17.724C17.724 25.212 14.296 25.496 11.274 22.346C7.982 18.912 5.074 12.134 5.074 12.134C5.074 12.134 4.904 11.706 5.086 11.488C5.292 11.246 5.848 11.24 5.848 11.24L9.562 11.222C9.562 11.222 9.912 11.284 10.164 11.468C10.37 11.62 10.488 11.906 10.488 11.906C10.488 11.906 11.088 13.428 11.884 14.806C13.436 17.492 14.158 18.08 14.684 17.792C15.452 17.372 15.222 13.996 15.222 13.996C15.222 13.996 15.236 12.77 14.836 12.224C14.524 11.798 13.938 11.672 13.68 11.64C13.47 11.612 13.812 11.126 14.258 10.906C14.926 10.58 16.108 10.56 17.502 10.574C18.588 10.586 18.902 10.652 19.326 10.756C20.608 11.066 20.172 12.262 20.172 15.132C20.172 16.052 20.006 17.344 20.668 17.77C20.954 17.954 21.65 17.798 23.388 14.838C24.214 13.434 24.832 11.784 24.832 11.784C24.832 11.784 24.968 11.49 25.178 11.364C25.394 11.234 25.684 11.274 25.684 11.274L29.594 11.25C29.594 11.25 30.768 11.108 30.96 11.642C31.16 12.2 30.522 13.502 28.924 15.632C26.302 19.132 26.01 18.806 28.188 20.83C30.268 22.764 30.698 23.704 30.77 23.822C31.63 25.254 29.814 25.368 29.814 25.368Z" fill="#0776A0"/>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 0C4.478 0 0 4.478 0 10V26C0 31.522 4.478 36 10 36H26C31.522 36 36 31.522 36 26V10C36 4.478 31.522 0 26 0H10ZM30 4C31.104 4 32 4.896 32 6C32 7.104 31.104 8 30 8C28.896 8 28 7.104 28 6C28 4.896 28.896 4 30 4ZM18 8C23.522 8 28 12.478 28 18C28 23.522 23.522 28 18 28C12.478 28 8 23.522 8 18C8 12.478 12.478 8 18 8ZM18 12C16.4087 12 14.8826 12.6321 13.7574 13.7574C12.6321 14.8826 12 16.4087 12 18C12 19.5913 12.6321 21.1174 13.7574 22.2426C14.8826 23.3679 16.4087 24 18 24C19.5913 24 21.1174 23.3679 22.2426 22.2426C23.3679 21.1174 24 19.5913 24 18C24 16.4087 23.3679 14.8826 22.2426 13.7574C21.1174 12.6321 19.5913 12 18 12Z" fill="#0776A0"/>
+                        </svg>                            
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/modalWindow.js"></script>
+    <script src="./js/basketBuy.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>
